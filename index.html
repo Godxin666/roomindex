@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>409寝室主页</title>
+    <style>  
+      body {
+        margin: 0;
+        background-image: url('./roomimage/IMG_1296.jpg'); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      /* 重置按钮的默认样式 */
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: inherit;
+    color: inherit;
+}
+
+/* 定义按钮的样式 */
+.btn {
+    display: inline-block;
+    padding: 20px 40px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s,transform 0.3s;
+    backdrop-filter: blur(5px);
+    transform: translateY(0);
+}
+
+/* 按钮悬停效果 */
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-5px); /* 悬停时上移 */
+}
+
+/* 容器样式，用于居中对齐按钮 */
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container1">
+        <center><h1>409寝室</h1></center>
+        <center><a href=""><button class="btn"><strong>返回班级</strong></button></a></center>
+    </div>
+	<div class="container2">
+    <div style="font-size:26px;color:red"><strong>宿舍成员&nbsp;&nbsp;&nbsp;&nbsp;</strong></div>
+      <a href="https://godxin666.github.io/"><button class="btn">高长鑫</button></a>
+      <a href="https://zhenzhu666.github.io/index.html"><button class="btn">陈虞林</button></a>
+      <a href="https://676767-bob.github.io/"><button class="btn">向天晨</button></a>
+      <a href="https://fy0617.github.io/the-long-season/index.html"><button class="btn">付振琨</button></a>
+      <a href="https://pokemongosp.github.io/spm820/"><button class="btn">宋培民</button></a>
+    </div>
+  </div>
+  </body>
+</html>
